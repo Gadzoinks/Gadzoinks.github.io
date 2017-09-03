@@ -1,0 +1,165 @@
+body,html,img, a, ul {
+  padding: 0;
+  margin: 0;
+}
+
+body,html{
+  height: 100%;
+}
+img {
+  width: 100%;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+button {
+  box-shadow: none;
+}
+
+comment {
+  background: $white;
+  color: $blue;
+  font-weight: bold;
+  padding: 5%;
+  border-radius: 0.2rem;
+}
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 2rem;
+  background-color: $white;
+  color: $green;
+  border-radius: 0.2rem;
+  &:active {
+    color: $grey;
+  }
+}
+
+.challenge__next {
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 2rem;
+  background-color: $white;
+  color: $green;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  display: none;
+  width: 100%;
+  &:active {
+    color: $grey;
+  }
+}
+
+.story__next {
+  width: 100%;
+  display: block;
+  border-radius: 0;
+  text-align: center;
+}
+
+.cover__container {
+  background-color: $blue;
+  min-height: 100%;
+  padding: 5%;
+}
+.cover__link, .about__link {
+  width: 100%;
+  display: block;
+  border-radius: 0;
+  text-align: center;
+  margin-bottom: 2%;
+  // &-yellow {
+  //   background-color: $yellow;
+  // }
+  // &-orange {
+  //   background-color: $orange;
+  // }
+  // &-green {
+  //   background-color: $green;
+  // }
+}
+
+.about__container {
+  background-color: $blue;
+  min-height: 100%;
+  padding: 5%;
+  padding-top: 10%;
+}
+
+.about__blurb {
+  color: $white;
+}
+
+
+.menu__icon {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  opacity: 0.9;
+  width: 15%;
+}
+
+.menu__list {
+  display: none;
+  &--active {
+    background: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 2%;
+  }
+}
+
+.menu__item {
+  width: 50%;
+  text-align: center;
+}
+
+.menu__link {
+  display: block;
+  width: 100%;
+  margin: 2% 0;
+  background: $blue;
+  color: $white;
+}
+
+.challenge {
+  background-color: $orange;
+  padding: 5%;
+  min-height: 100%;
+}
+#challenge__container-1 {
+  background-image: url("/assets/c1_back.png");
+  background-size: cover;
+  padding: $small-padding;
+}
+
+#challenge__container-2 {
+  background-image: url("/assets/c2_back.png");
+  background-size: cover;
+  padding: $small-padding;
+  display: none;
+}
+
+#page-3 {
+  display: none;
+}
+
+.instr__text {
+  @extend comment;
+}
+
+.result {
+  display: none;
+  margin: 5% 0;
+  @extend comment;
+}
