@@ -152,13 +152,13 @@ a {
   min-height: 100%;
 }
 #challenge__container-1 {
-  background-image: url("./assets/c1_back.png");
+  background-image: url("./../assets/c1_back.png");
   background-size: cover;
   padding: $small-padding;
 }
 
 #challenge__container-2 {
-  background-image: url("./assets/c2_back.png");
+  background-image: url("./../assets/c2_back.png");
   background-size: cover;
   padding: $small-padding;
   display: none;
