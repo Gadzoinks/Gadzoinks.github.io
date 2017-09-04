@@ -16,7 +16,10 @@ li {
   list-style: none; }
 
 button {
-  box-shadow: none; }
+  box-shadow: none;
+  padding: 0;
+  border: none;
+  background: none; }
 
 comment, .instr__text, .result {
   background: #ffffff;
@@ -41,9 +44,8 @@ a {
   text-decoration: none;
   font-size: 1rem;
   line-height: 2rem;
-  background-color: #ffffff;
-  color: #629e42;
-  font-weight: bold;
+  background-color: #bf85b2;
+  color: #ffffff;
   border-radius: 0.2rem;
   display: none;
   width: 100%; }
@@ -54,7 +56,12 @@ a {
   width: 100%;
   display: block;
   border-radius: 0;
-  text-align: center; }
+  text-align: center;
+  background-color: #bf85b2;
+  color: #ffffff;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  line-height: 2rem; }
 
 .cover__container {
   background-color: #5f88aa;
@@ -66,7 +73,12 @@ a {
   display: block;
   border-radius: 0;
   text-align: center;
-  margin-bottom: 2%; }
+  margin-bottom: 2%;
+  background-color: #bf85b2;
+  color: #ffffff;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  line-height: 2rem; }
 
 .about__container {
   background-color: #5f88aa;
@@ -82,7 +94,8 @@ a {
   top: 1%;
   left: 1%;
   opacity: 0.9;
-  width: 15%; }
+  width: 15%;
+  padding: 1%; }
 
 .menu__list {
   display: none; }
