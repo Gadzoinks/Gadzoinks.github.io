@@ -133,13 +133,13 @@ body, html {
 
 /** FOOTER **/
 .contact {
+  text-align: center;
   font-family: "Lato", sans-serif;
-  width: 100%;
-  display: flex;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .footer {
   font-family: "Lato", sans-serif;
   width: 100%;
-  display: flex;
+  text-align: center;
+  font-size: 0.4rem;
 }
