@@ -1,30 +1,97 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GadzoinkMaps</title>
-    <link rel="stylesheet" href="./styles/app.css" />
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kanit:100" rel="stylesheet">
-  </head>
-  <body>
-    <nav>
-      <h1 class="heading"> Gadzoinks Maps </h1>
-    </nav>
-    <section class="video__container">
-      <iframe class="video__file" src="https://drive.google.com/file/d/14zLOv65R1X_a6FbvzUPyZ-HhoWf1mhfa/preview" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </section>
-    <div style="display:  table;height: 10px;">
-    </div>
-     <section class="video__container">
-      <iframe class="video__file" src="https://drive.google.com/file/d/19ifN9ywDRaJzT_wyQgo2UjCjoYbomhJU/preview" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </section>
-      <h2 class="contact"> Contact us at <a class="mail" href="mailto:gadzoinksmaps@gmail.com">gadzoinksmaps@gmail.com</a> </h2>
-    <footer class="footer">
-      Copyright GadzoinksMaps 2017
-    </footer>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Gadzoinks!</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="nav__container">
+    <!-- <p class="nav__list-left">
+      <img class="nav__logo-image" src="assets/logo.png"/>
+    </p> -->
+    <ul class="nav__list-right">
+      <li class="nav__list-item">
+        <a class="nav__list-link" href="#home"> Home </a>
+      </li>
+      <li class="nav__list-item">
+        <a class="nav__list-link" href="#about"> About </a>
+      </li>
+      <li class="nav__list-item">
+        <a class="nav__list-link" href="#gallery"> Gallery </a>
+      </li>
+      <li class="nav__list-item">
+        <a class="nav__list-link" href="#info"> Info </a>
+      </li>
+    </ul>
+  </nav>
+  <section class="main-container">
+    <section class="home__container" id="home">
+      <p class="content-main"> GADZOINKS! </p>
+      <div class="video__container">
+        <iframe class="video__file" src="https://drive.google.com/file/d/14zLOv65R1X_a6FbvzUPyZ-HhoWf1mhfa/preview" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <p class="image__desc">
+          Gadzoinks! Hawaii Postcards
+        </p>
+        <iframe class="video__file" src="https://drive.google.com/file/d/19ifN9ywDRaJzT_wyQgo2UjCjoYbomhJU/preview" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <p class="image__desc">
+          Gadzoinks! NY Food Map
+        </p>
+        <iframe class="video__file" src="https://drive.google.com/file/d/0B_qEYMinFS_FQzFqOWlOYnZtMFE/preview" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <p class="image__desc">
+          Gadzoinks! Activity Map
+        </p>
+      </div>
+    </section>
+    <section class="about__container" id="about">
+      <p class="content-main"> WHAT IS IT? </p>
+      <div class="content">
+        <p class="about__content">
+          Gadzoinks! are magical interactive maps, books, postcards and puzzles for kids aged 5 to 10 that feature mysteries, treasure hunts, challenges and fun facts – all brought to life with augmented reality. Simply hold your phone over the images printed on the physical page and they will trigger the audio story as well as the augmented animations sprinkled throughout the adventure.
+          <br><br>
+          Gadzoinks! is created by Charles Danziger, a Yale-educated art-lawyer and animator, who has written and illustrated travel books for kids, and whose work has been featured on Buzzfeed, Fox News, Nicktoons, and NHK.
+        </p>
+      </div>
+
+    </section>
+    <section class="gallery__container" id="gallery">
+      <p class="content-main"> GALLERY </p>
+      <div class="image__container">
+        <img class="image" src="./assets/g1.jpg"/>
+        <p class="image__desc">
+          Gadzoinks! Map of New York City
+        </p>
+        <img class="image" src="./assets/g2.jpg"/>
+        <p class="image__desc">
+          Gadzoinks! Alphabet Dragon Puzzle
+        </p>
+        <img class="image" src="./assets/g3.jpg"/>
+        <p class="image__desc">
+          Gadzoinks! New York City Puzzle
+        </p>
+        <img class="image" src="./assets/g4.jpg"/>
+        <p class="image__desc">
+          Gadzoinks! Hawaii Puzzle Map
+        </p>
+        <img class="image" src="./assets/g5.jpg"/>
+        <p class="image__desc">
+          Gadzoinks! Postcards
+        </p>
+      </div>
+
+    </section>
+    <section class="info__container" id="info">
+      <p class="content-main"> MORE INFO </p>
+      <h2 class="contact"> Contact us at <a class="mail" href="mailto:gadzoinksmaps@gmail.com">gadzoinksmaps@gmail.com</a> </h2>
+      <footer class="footer">
+      Copyright GadzoinksMaps 2017
+      </footer>
+    </section>
+  </section>
+</body>
+
 </html>
