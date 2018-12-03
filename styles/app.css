@@ -26,7 +26,8 @@ body, html {
 .nav__list-right {
   list-style: none;
   display: flex;
-  width: 50%;
+  width: 100%;
+  padding : 0;
   justify-content: space-between;
   margin: 0 5%;
   align-items: center; }
